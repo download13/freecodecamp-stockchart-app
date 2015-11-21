@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+    <style>
+    html, body {
+        padding: 0;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .graph {
+        display: block;
+        height: 400px;
+        width: 600px;
+        margin: 0 auto 20px auto;
+        border: 1px solid black;
+    }
+    
+    .stocktag-holder {
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        margin: 0 auto 20px auto;
+    }
+    
+    .stocktag {
+        display: flex;
+        width: 120px;
+        font-size: 18px;
+        border: 2px solid #aaa;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 0 10px 10px 0;
+    }
+    .stocktag > .colorblock {
+        width: 20px;
+        height: 20px;
+        margin-left: 5px;
+        border-radius: 10px;
+    }
+    .stocktag > .closebtn {
+        margin-left: auto;
+        background: none;
+        border: 0;
+        cursor: pointer;
+    }
+    
+    .symbol-in {
+        display: block;
+        width: 200px;
+        margin: 0 auto;
+        padding: 5px 10px;
+        font-family: Arial, sans-serif;
+        font-size: 24px;
+        border: 3px solid #ccc;
+        border-radius: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div id="approot"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src="/app.js"></script>
+</body>
